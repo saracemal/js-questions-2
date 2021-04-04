@@ -7,15 +7,17 @@ undefined: nothing was assigned to the variable. whether intentional or accident
 null: it means nothing. it can be assigned the value of null, as well. 
 
 2. What does the && operator do?
+representative of the logical AND operator. if used with booleans, will return true if both sides are true/false. 
 
 
 3. What does the || operator do?
-
+representative of the logical OR operator.
 
 4. Is using the + or unary plus operator the fastest way in turning a string into a number?
 
 
 5. What is the DOM?
+DOM stands for Document Object Model, and it is essentially the interface to webpages. it allows programs to read/manipulate the page's content, structure, and styles.
 
 
 6. What is Event Propagation? 
