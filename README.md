@@ -21,7 +21,7 @@ DOM stands for Document Object Model, and it is essentially the interface to web
 
 
 6. What is Event Propagation? 
-
+It is a way to describe the "stack" of events that gets triggered when clicking on a specific part of the web browser. Most elements on a web page are nested, which is where the "stack" comes from. 
 
 7. What's Event Bubbling?
 
