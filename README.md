@@ -5,7 +5,6 @@ Below are (my) answers to commonly asked JavaScript questions! I found these que
 1. What's the difference between undefined and null?
 <br>
 undefined: nothing was assigned to the variable. whether intentional or accidental. 
-<br>
 null: it means nothing. it can be assigned the value of null, as well. 
 
 2. What does the && operator do?
