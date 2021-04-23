@@ -13,6 +13,17 @@ NaN gets returned when the return value is not a number.
 What are global variables?
 Global variables are those assigned outside of the scope of functions, and can be accessed through functions 
 
+What are Javascript Cookies?
+Cookies are bits of data stored onto your computer that come from interactions you have with a website. These bits of data are used to contain data on a specific website (such as login data, items in a cart, visited pages, etc) in order to create an easier user experience. However, sometimes can be used maliciously in order to target users with specific advertisements based on data that they've consumed. 
+
+What is a typeof operator?
+Returns a string of what data type the variable is. 
+
+What are the types of errors in Javascript?
+Loadtime Errors: errors shown at the time of page load errors, usually due to incorrect syntax or creates loading issues.
+Runtime Errors: errors that are shown while the page is already running. an example would be illegal operations caused by mathematical issues
+Logic Errors: syntactically correct code that doesn't fulfill the task -- example, an infinite loop 
+
 1. What's the difference between undefined and null?
 
 undefined: nothing was assigned to the variable. whether intentional or accidental. 
@@ -54,5 +65,7 @@ event.stopPropagating()
 10. How to know if the event.preventDefault() method was used in an element?
 <br>
 It will prevent the page from refreshing.
+
+
 
 
