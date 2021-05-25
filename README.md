@@ -78,3 +78,14 @@ It will prevent the page from refreshing.
 13. What are truthy falues in javascript?
 Anything that is not falsy is truthy including the empty object {} and the empty array []
 
+14. What is a database?
+A database is a collection of structured information or data, which is made up of structured rows and columns, making data management easier. There are a lot of different examples of databases: objected-oriented, relational, or noSQL. PostgreSQL is an example of an object-oriented database that supports the storage of all data types, and they are stored as objects. MySQL is an example of a relational database where the database is in the form of a table, and NoSQL is good for large sets of unorganized data. 
+
+15. What is SQL?
+SQL stands for "structured query language", and it's a programming language where we can go into a database and extract or manipulate information. With SQL you can make requests to return information using different keyword commands like ‘SELECT’, ‘FROM’, and ‘WHERE’.
+
+16. What are SQL joins?
+If you are using SQL, you have data organized in tables and these tables have relationships to each other (Relational databases). In order to make a query that requests data from two tables, we have to connect them with a ‘JOIN’ keyword. There are different types of JOINS: Inner, Left Join, Right Join, Full Join.
+
+17. What is type-coercion?
+It is the process of converting one value into another. The main three types of coercion are converting a value to a string, a boolean, or a number.
