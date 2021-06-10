@@ -89,3 +89,6 @@ If you are using SQL, you have data organized in tables and these tables have re
 
 17. What is type-coercion?
 It is the process of converting one value into another. The main three types of coercion are converting a value to a string, a boolean, or a number.
+
+18. What is a closure?
+Closures are created whenever a variable that is defined outside the current scope is accessed from within some inner scope. It gives you access to an outer function’s scope from an inner function. In JavaScript, closures are created every time a function is created. To use a closure, simply define a function inside another function and expose it.
