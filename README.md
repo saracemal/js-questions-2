@@ -92,3 +92,7 @@ It is the process of converting one value into another. The main three types of 
 
 18. What is a closure?
 Closures are created whenever a variable that is defined outside the current scope is accessed from within some inner scope. It gives you access to an outer function’s scope from an inner function. In JavaScript, closures are created every time a function is created. To use a closure, simply define a function inside another function and expose it.
+
+19. What is the difference between local storage and session storage?
+Local storage data is not sent back to the server for each HTTP request, and this is in regards to HTML, any images, CSS, JS, etc. This way it will reduce the amount of traffic between the client and the server and it will stay until it is manually cleared. 
+Session storage is similar to local storage, bu the main difference is that session storage will be cleared when the page session ends, aka when the browser is closed. 
