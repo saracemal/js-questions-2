@@ -96,3 +96,14 @@ Closures are created whenever a variable that is defined outside the current sco
 19. What is the difference between local storage and session storage?
 Local storage data is not sent back to the server for each HTTP request, and this is in regards to HTML, any images, CSS, JS, etc. This way it will reduce the amount of traffic between the client and the server and it will stay until it is manually cleared. 
 Session storage is similar to local storage, bu the main difference is that session storage will be cleared when the page session ends, aka when the browser is closed. 
+
+20. How can you convert the string of any base to an integer in JavaScript?
+parseInt() function is used to convert numbers between different bases. parseInt() takes the string to be converted as its first parameter. The second parameter is the base of the given string.
+ex: parseInt("2F", 4)
+
+21. What is the data type of variables in JavaScript?
+All data types in JS are object data types. 
+
+22. What is break and continue statements?
+Break gets you out of a loop, while continue will continue the loop. 
+
