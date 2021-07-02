@@ -107,3 +107,12 @@ All data types in JS are object data types.
 22. What is break and continue statements?
 Break gets you out of a loop, while continue will continue the loop. 
 
+In what order will the numbers 1-4 be logged to the console when the code below is executed? Why?
+
+(function() {
+    console.log(1); 
+    setTimeout(function(){console.log(2)}, 1000); 
+    setTimeout(function(){console.log(3)}, 0); 
+    console.log(4);
+})();
+answer: 1, 4, 3, 2. 1 and 4 will log immediately since they are being returned with a simple console.log(). 3 will follow 4, and 2 will be last because of the setTimeout function requiring it to wait a second. 
