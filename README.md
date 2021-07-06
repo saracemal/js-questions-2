@@ -116,3 +116,19 @@ In what order will the numbers 1-4 be logged to the console when the code below 
     console.log(4);
 })();
 answer: 1, 4, 3, 2. 1 and 4 will log immediately since they are being returned with a simple console.log(). 3 will follow 4, and 2 will be last because of the setTimeout function requiring it to wait a second. 
+
+23. What will the code below output to the console and why ?
+
+console.log(1 +  "2" + "2");
+console.log(1 +  +"2" + "2");
+console.log(1 +  -"1" + "2");
+console.log(+"1" +  "1" + "2");
+console.log( "A" - "B" + "2");
+console.log( "A" - "B" + 2);
+
+- '122' -> JS is a loosely typed language, so it will just literally add up 1 and 2 and 2
+- '32' -> the double plus converts the first string of 2 into a number and adds it 
+- '02' -> same here butwith a negative
+- '112'
+- 'NaN2'
+- NaN
