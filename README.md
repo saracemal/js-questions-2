@@ -132,3 +132,9 @@ console.log( "A" - "B" + 2);
 - '112'
 - 'NaN2'
 - NaN
+
+24. What would following code return?
+
+console.log(typeof typeof 1);
+
+- it will return string. typeof 1 is "number", and typeof "number" is string. 
