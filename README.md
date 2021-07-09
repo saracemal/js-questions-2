@@ -138,3 +138,22 @@ console.log( "A" - "B" + 2);
 console.log(typeof typeof 1);
 
 - it will return string. typeof 1 is "number", and typeof "number" is string. 
+
+Consider the two functions below. Will they both return the same thing? Why or why not?
+
+function foo1()
+{
+  return {
+      bar: "hello"
+  };
+}
+
+function foo2()
+{
+  return
+  {
+      bar: "hello"
+  };
+}
+
+
