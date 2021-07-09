@@ -139,7 +139,7 @@ console.log(typeof typeof 1);
 
 - it will return string. typeof 1 is "number", and typeof "number" is string. 
 
-Consider the two functions below. Will they both return the same thing? Why or why not?
+25. Consider the two functions below. Will they both return the same thing? Why or why not?
 
 function foo1()
 {
@@ -157,3 +157,12 @@ function foo2()
 }
 
 
+26. What will the code below output? Explain your answer.
+
+console.log(0.1 + 0.2);
+console.log(0.1 + 0.2 == 0.3);
+
+- 0.30000000000000004
+false
+
+it may print out .3 and ture, but it's unsure because of floating point precision in JS. 
