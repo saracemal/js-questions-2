@@ -165,4 +165,15 @@ console.log(0.1 + 0.2 == 0.3);
 - 0.30000000000000004
 false
 
-it may print out .3 and ture, but it's unsure because of floating point precision in JS. 
+it may print out .3 and true, but it's unsure because of floating point precision in JS. 
+
+27. What will be the output of this code?
+
+var x = 21;
+var girl = function () {
+    console.log(x);
+    var x = 20;
+};
+girl ();
+
+- the result is undefined because Javascript initialization is unhoisted. when the function is executed, it wll look for a local x variable, but wont declare it yet, and then it won't go ahead and look for a global one. 
