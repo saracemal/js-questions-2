@@ -177,3 +177,19 @@ var girl = function () {
 girl ();
 
 - the result is undefined because Javascript initialization is unhoisted. when the function is executed, it wll look for a local x variable, but wont declare it yet, and then it won't go ahead and look for a global one. 
+
+28. What will the following code output and why?
+
+var b = 1;
+function outer(){
+   	var b = 2
+    function inner(){
+        b++;
+        var b = 3;
+        console.log(b)
+    }
+    inner();
+}
+outer();
+
+Output to the console will be “3”. There are three closures in the example, each with it’s own var b declaration. When a variable is invoked closures will be checked in order from local to global until an instance is found. Since the inner closure has a b variable of its own, that is what will be output.
