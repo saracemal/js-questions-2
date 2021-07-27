@@ -196,3 +196,8 @@ Output to the console will be “3”. There are three closures in the example, 
 
 29. What is the value of typeof undefined == typeof NULL?
 The expression will be evaluated to true, since NULL will be treated as any other undefined variable. JavaScript is case-sensitive and here we are using NULL instead of null.
+
+30. What is memoization?
+Memoization is a programming technique which attempts to increase a function’s performance by caching its previously computed results. Each time a memoized function is called, its parameters are used to index the cache. If the data is present, then it can be returned, without executing the entire function. Otherwise the function is executed and then the result is added to the cache. 
+
+31. 
