@@ -209,4 +209,22 @@ Memoization is a programming technique which attempts to increase a function’s
 console.log("a defined? " + (typeof a !== 'undefined'));
 console.log("b defined? " + (typeof b !== 'undefined'));
 
+32. What is the difference between slice and splice? 
+Slice does not modify the original array while splice does. (immutable vs mutable)
+Slice returns the subset of the original array, while splice returns the deleted elements as an array. 
+Slice picks elements from an array, while splice is used to insert/delete items to/from the array. 
 
+33. What is a first class function
+In Javascript, functions are first class objects. First-class functions means when functions in that language are treated like any other variable.
+
+For example, in such a language, a function can be passed as an argument to other functions, can be returned by another function and can be assigned as a value to a variable. For example, in the below example, handler functions assigned to a listener
+
+const handler = () => console.log ('This is a click handler function');
+document.addEventListener ('click', handler);
+
+34. What is a unary function
+Unary function (i.e. monadic) is a function that accepts exactly one argument. It stands for a single argument accepted by a function.
+
+Let us take an example of unary function,
+
+const unaryFunction = a => console.log (a + 10)
