@@ -226,5 +226,10 @@ document.addEventListener ('click', handler);
 Unary function (i.e. monadic) is a function that accepts exactly one argument. It stands for a single argument accepted by a function.
 
 Let us take an example of unary function,
-
 const unaryFunction = a => console.log (a + 10)
+
+35. What is a pure function?
+- A pure function is a function where the return value is only determined by the arguments and not by any side effects. 
+
+36. Difference between first order function and higher order function?
+- A first order function is a function that does not take another function as an argument and doesn't return a function. A higher order function takes another function as an argument, or returns a return value as a function, or both. 
