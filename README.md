@@ -253,3 +253,17 @@ Prompt
 The onload function is not run until all the information on the page is loaded. This leads to a substantial delay before any code is executed.
 
 onDocumentReady loads the code just after the DOM is loaded. This allows early manipulation of the code.
+
+40. What are the differences between Java and JavaScript?
+
+Java is a complete programming language. In contrast, JavaScript is a coded program that can be introduced to HTML pages. These two languages are not at all inter-dependent and are designed for different intent. Java is an object-oriented programming (OOPS) or structured programming languages like C++ or C, whereas JavaScript is a client-side scripting language.
+
+41. JavaScript timers?
+
+Timers are used to execute a piece of code at a set time or repeat the code in a given interval. This is done by using the functions setTimeout, setInterval, and clearInterval.
+
+The setTimeout(function, delay) function is used to start a timer that calls a particular function after the mentioned delay. The setInterval(function, delay) function repeatedly executes the given function in the mentioned delay and only halts when canceled. The clearInterval(id) function instructs the timer to stop.
+
+Timers are operated within a single thread, and thus events might queue up, waiting to be executed.
+
+
