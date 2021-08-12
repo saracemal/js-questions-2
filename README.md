@@ -233,3 +233,23 @@ const unaryFunction = a => console.log (a + 10)
 
 36. Difference between first order function and higher order function?
 - A first order function is a function that does not take another function as an argument and doesn't return a function. A higher order function takes another function as an argument, or returns a return value as a function, or both. 
+
+37. What is an undefined value in JavaScript?
+
+Undefined value means the
+
+Variable used in the code doesn't exist
+Variable is not assigned to any value
+Property does not exist.
+
+38. What are all the types of Pop up boxes available in JavaScript?
+
+Alert
+Confirm and
+Prompt
+
+39. What is a window.onload and onDocumentReady?
+
+The onload function is not run until all the information on the page is loaded. This leads to a substantial delay before any code is executed.
+
+onDocumentReady loads the code just after the DOM is loaded. This allows early manipulation of the code.
