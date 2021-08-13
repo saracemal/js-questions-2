@@ -267,3 +267,15 @@ The setTimeout(function, delay) function is used to start a timer that calls a p
 Timers are operated within a single thread, and thus events might queue up, waiting to be executed.
 
 
+42. What is the function of the delete operator?
+
+The delete keyword is used to delete the property as well as its value.
+
+Example
+
+var student= {age:20, batch:"ABC"};
+Delete student. age;
+
+43. Does JavaScript has concept level scope?
+
+No. JavaScript does not have concept-level scope. The variable declared inside the function has scope inside the function.
