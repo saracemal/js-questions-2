@@ -282,3 +282,13 @@ No. JavaScript does not have concept-level scope. The variable declared inside t
 
 44. Why do you need web storage?
 Web storage is more secure, and large amounts of data can be stored locally, without affecting website performance. Also, the information is never transferred to the server. Hence this is a more recommended approach than Cookies.
+
+45. Why do you need a promise?
+Promises are used to handle asynchronous operations. They provide an alternative approach for callbacks by reducing the callback hell and writing the cleaner code.
+
+What are the three states of promise?
+Promises have three states:
+
+Pending: This is an initial state of the Promise before an operation begins
+Fulfilled: This state indicates that the specified operation was completed.
+Rejected: This state indicates that the operation did not complete. In this case an error value will be thrown.
