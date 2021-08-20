@@ -279,3 +279,6 @@ Delete student. age;
 43. Does JavaScript has concept level scope?
 
 No. JavaScript does not have concept-level scope. The variable declared inside the function has scope inside the function.
+
+44. Why do you need web storage?
+Web storage is more secure, and large amounts of data can be stored locally, without affecting website performance. Also, the information is never transferred to the server. Hence this is a more recommended approach than Cookies.
