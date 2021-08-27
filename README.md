@@ -292,3 +292,22 @@ Promises have three states:
 Pending: This is an initial state of the Promise before an operation begins
 Fulfilled: This state indicates that the specified operation was completed.
 Rejected: This state indicates that the operation did not complete. In this case an error value will be thrown.
+
+46. When is prototypal inheritance an appropriate choice?
+
+There is more than one type of prototypal inheritance:
+Delegation (i.e., the prototype chain).
+Concatenative (i.e. mixins, `Object.assign()`).
+Functional (Not to be confused with functional programming. A function used to create a closure for private state/encapsulation).
+Each type of prototypal inheritance has its own set of use-cases, but all of them are equally useful in their ability to enable composition, which creates has-a or uses-a or can-do relationships as opposed to the is-a relationship created with class inheritance.
+
+47. What is AJAX?
+AJAX stands for Asynchronous JavaScript and XML. It is a group of related technologies used to display data asynchronously. What this means is that we can send data to the server and get data from the server without reloading the web page.
+
+Technologies use for AJAX.
+
+HTML - web page structure
+CSS - the styling for the webpage
+JavaScript - the behaviour of the webpage and updates to the DOM
+XMLHttpRequest API - used to send and retrieve data from the server
+PHP,Python,Nodejs - Some Server-Side language
