@@ -311,3 +311,12 @@ CSS - the styling for the webpage
 JavaScript - the behaviour of the webpage and updates to the DOM
 XMLHttpRequest API - used to send and retrieve data from the server
 PHP,Python,Nodejs - Some Server-Side language
+
+48. What are ES6 Modules?
+Modules let us split our code base to multiple files for more maintainability and this lets us avoid putting all of our code in one big file (yucksss). Before ES6 has supported Modules there were two popular module systems that were used for Code Maintainability in JavaScript.
+
+CommonJS - Nodejs
+AMD (Asynchronous Module Definition) - Browsers
+Basically, the sytanx for using modules are straightforward,
+import is used for getting functionality from another file or several functionalities or values while
+export is used for exposing functionality from a file or several functionalities or values.
